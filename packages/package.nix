@@ -10,7 +10,8 @@ in {
          trash-cli
          neofetch
          wtf
-         tree
+         nix-health # check the health of your nix setup
+         nix-search-cli # cli for searching package
         ];
       };
     };
