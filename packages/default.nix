@@ -1,0 +1,5 @@
+{ ... }: {
+  imports = [
+    ./package.nix
+  ];
+}
