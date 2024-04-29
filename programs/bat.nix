@@ -1,4 +1,5 @@
-{ pkgs, ... }: let
+{ pkgs, ... }: 
+let
   name = "eep";
 in {
   home-manager = {
