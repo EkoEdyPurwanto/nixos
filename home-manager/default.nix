@@ -11,7 +11,6 @@ in {
     ./packages
   ];
 
-  #users.users.${name}.isNormalUser = true;
   home-manager = {
     useGlobalPkgs = true;
     users.${name} = {
