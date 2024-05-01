@@ -3,7 +3,7 @@
 {
     services.postgresql = {
         enable = true;
-        ensureDatabases = [ "mydatabase" ];
+        ensureDatabases = [ "eep" ];
         enableTCPIP = true;
         port = 5432;
         authentication = pkgs.lib.mkOverride 10 ''
@@ -18,7 +18,7 @@
         '';
         initialScript = pkgs.writeText "backend-initScript" ''
             CREATE ROLE eep WITH LOGIN PASSWORD '1903' CREATEDB;
-            CREATE DATABASE mydatabase;
+            CREATE DATABASE eep;
             GRANT ALL PRIVILEGES ON DATABASE mydatabase TO eep;
         '';
     };
