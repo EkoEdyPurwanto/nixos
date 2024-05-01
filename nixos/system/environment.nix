@@ -6,7 +6,7 @@
     environment.systemPackages = with pkgs; [
         jetbrains.goland
         jetbrains-toolbox
-        gnome-tweaks
+        gnome3.gnome-tweaks
         spotify
         dart-sass
         hugo
