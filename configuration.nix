@@ -4,7 +4,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      /home/eep/.config/home-manager/home.nix
+      ./home-manager
     ];
 
   # Bootloader.
