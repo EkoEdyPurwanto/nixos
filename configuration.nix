@@ -1,8 +1,8 @@
 { ... }:
 
 {
-  imports = [
-      ./nixos
-      ./home-manager
+    imports = [
+        ./nixos
+        ./home-manager
     ];
 }

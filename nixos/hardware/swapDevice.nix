@@ -1,5 +1,5 @@
 { ... }:
 
 {
-  swapDevices = [ ];
+    swapDevices = [ ];
 }

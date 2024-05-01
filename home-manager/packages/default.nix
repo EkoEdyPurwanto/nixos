@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  imports = [
-    ./package.nix
-  ];
+    imports = [
+        ./package.nix
+    ];
 }

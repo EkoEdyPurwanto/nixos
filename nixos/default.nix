@@ -1,9 +1,9 @@
 { ... }:
 
 {
-  imports = [
-    ./hardware
-    ./service
-    ./system
-  ];
+    imports = [
+        ./hardware
+        ./service
+        ./system
+    ];
 }

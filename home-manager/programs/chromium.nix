@@ -3,13 +3,13 @@
 let
   name = "eep";
 in {
-  home-manager = {
-    users.${name} = {
-      programs = {
-        chromium = {
-          enable = true;
+    home-manager = {
+        users.${name} = {
+            programs = {
+                chromium = {
+                    enable = true;
+                };
+            };
         };
-      };
     };
-  };
 }

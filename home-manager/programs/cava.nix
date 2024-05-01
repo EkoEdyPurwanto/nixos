@@ -53,33 +53,33 @@ let
   dark_7 = "'#1E1E1E'";
 
 in {
-  home-manager = {
-    users.${name} = {
-      programs = {
-        cava = {
-          enable = true;
-          settings = {
-            general = {
-              framerate = 60;
-              bars = 0;
-              bar_width = 2;
-              bar_spacing = 1;
+    home-manager = {
+        users.${name} = {
+            programs = {
+                cava = {
+                    enable = true;
+                    settings = {
+                        general = {
+                            framerate = 60;
+                            bars = 0;
+                            bar_width = 2;
+                            bar_spacing = 1;
+                        };
+                        smoothing = {
+                            noise_reduction = 88;
+                        };
+                        color = {
+                          gradient = 1;
+                          gradient_count = 5;
+                          gradient_color_1 = blue_3;
+                          gradient_color_2 = green_3;
+                          gradient_color_3 = purple_3;
+                          gradient_color_4 = orange_3;
+                          gradient_color_5 = yellow_3;
+                        };
+                    };
+                };
             };
-            smoothing = {
-              noise_reduction = 88;
-            };
-            color = {
-              gradient = 1;
-              gradient_count = 5;
-              gradient_color_1 = blue_3;
-              gradient_color_2 = green_3;
-              gradient_color_3 = purple_3;
-              gradient_color_4 = orange_3;
-              gradient_color_5 = yellow_3;
-            };
-          };
         };
-      };
     };
-  };
 }

@@ -7,7 +7,12 @@ in {
     users.${name} = {
       home = {
         packages = [
-          (pkgs.nerdfonts.override { fonts = [ "FiraCode" "Iosevka" "JetBrainsMono" ]; })
+          (pkgs.nerdfonts.override { fonts = [
+          "FiraCode"
+          "Iosevka"
+          "JetBrainsMono"
+          ];
+          })
         ];
       };
     };
