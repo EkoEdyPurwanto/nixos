@@ -1,4 +1,5 @@
-{ pkgs, ... }: 
+{ pkgs, ... }:
+
 let
   name = "eep";
 in {

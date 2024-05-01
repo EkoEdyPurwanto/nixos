@@ -1,4 +1,5 @@
 { config, pkgs, ... }:
+
 {
     boot = {
         initrd = {

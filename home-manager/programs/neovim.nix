@@ -1,4 +1,5 @@
-{ pkgs, ... }: 
+{ pkgs, ... }:
+
 let
   name = "eep";
 in {
@@ -6,7 +7,7 @@ in {
     users.${name} = {
       programs = {
         neovim = {
-          enable = false;
+          enable = true;
           viAlias = true;
           vimAlias = true;
           vimdiffAlias = true;

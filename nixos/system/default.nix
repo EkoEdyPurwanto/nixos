@@ -1,4 +1,5 @@
 { ... }:
+
 let
     ver = "23.11";
 in {
@@ -9,6 +10,7 @@ in {
     ./nixpkgs.nix
     ./timeZone.nix
     ./user.nix
+    ./environment.nix
     ];
      system = {
         stateVersion = "${ver}";

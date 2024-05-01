@@ -1,4 +1,5 @@
-{ ... }: 
+{ ... }:
+
 let
   name = "eep";
 
@@ -61,7 +62,7 @@ in {
             general = {
               framerate = 60;
               bars = 0;
-              bar_width = 1;
+              bar_width = 2;
               bar_spacing = 1;
             };
             smoothing = {

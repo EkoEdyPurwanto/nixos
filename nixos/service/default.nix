@@ -1,7 +1,8 @@
 { ... }:
+
 {
     imports = [
-    ./postgresql.nix
+    ./postgreSQL.nix
     ./printing.nix
     ./xserver.nix
     ./pipewire.nix
