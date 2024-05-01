@@ -6,9 +6,9 @@ let
 in {
     imports = [
         <home-manager/nixos>
-        ./programs
-        ./fonts
-        ./packages
+        ./program
+        ./font
+        ./package
     ];
 
     home-manager = {
