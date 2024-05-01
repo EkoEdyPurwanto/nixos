@@ -9,6 +9,7 @@ in {
         ./program
         ./font
         ./package
+        ./theme
     ];
 
     home-manager = {
