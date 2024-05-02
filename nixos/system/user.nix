@@ -5,6 +5,6 @@
      users.users.eep = {
         isNormalUser = true;
         description = "eep";
-        extraGroups = [ "networkmanager" "wheel" ];
+        extraGroups = [ "networkmanager" "wheel" "docker" ];
      };
 }

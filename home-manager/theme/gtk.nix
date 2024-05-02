@@ -12,7 +12,7 @@ in {
           size= 11;
         };
         theme = {
-          name = "WhiteSur-Dark"; # Adwaita, Adwaita-dark
+          name = "WhiteSur-Dark"; # WhiteSur-Dark-solid, WhiteSur-Light, WhiteSur-Light-solid
           package = pkgs.whitesur-gtk-theme;
         };
         iconTheme = {
