@@ -12,8 +12,8 @@ in {
           size= 11;
         };
         theme = {
-          name = "Adwaita-dark"; # Adwaita, Adwaita-dark
-          package = pkgs.gnome.gnome-themes-extra;
+          name = "WhiteSur-Dark"; # Adwaita, Adwaita-dark
+          package = pkgs.whitesur-gtk-theme;
         };
         iconTheme = {
           name = "candy-icons";
@@ -23,37 +23,6 @@ in {
           name = "Bibata-Modern-Ice";
           package = pkgs.bibata-cursors;
           size = 18;
-        };
-        gtk2.extraConfig = ''
-          gtk-application-prefer-dark-theme=1
-          gtk-button-images=0
-          gtk-menu-images=0
-          gtk-xft-antialias=1
-          gtk-xft-dpi=98304
-          gtk-xft-hinting=1
-          gtk-xft-hintstyle="hintslight"
-          gtk-xft-rgba="none"
-        '';
-        gtk3.extraConfig = {
-          gtk-application-prefer-dark-theme=true;
-          gtk-button-images=false;
-          gtk-key-theme-name="Default";
-          gtk-menu-images=false;
-          gtk-overlay-scrolling=true;
-          gtk-xft-antialias=1;
-          gtk-xft-dpi=98304;
-          gtk-xft-hinting=1;
-          gtk-xft-hintstyle="hintslight";
-          gtk-xft-rgba="none";
-        };
-        gtk4.extraConfig = {
-          gtk-application-prefer-dark-theme=true;
-          gtk-overlay-scrolling=true;
-          gtk-xft-antialias=1;
-          gtk-xft-dpi=98304;
-          gtk-xft-hinting=1;
-          gtk-xft-hintstyle="hintslight";
-          gtk-xft-rgba="none";
         };
       };
     };
