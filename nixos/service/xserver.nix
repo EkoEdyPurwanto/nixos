@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
     # Enable the X11 windowing system.
@@ -13,4 +13,8 @@
         layout = "us";
         xkbVariant = "";
     };
+
+     services.xserver.excludePackages = [
+        pkgs.xterm
+      ];
 }
