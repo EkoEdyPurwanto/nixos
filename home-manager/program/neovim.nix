@@ -106,7 +106,7 @@ in {
                         set nocompatible
                         set nowrap
                         set nomodified
-                        set number relativenumber
+                        set number norelativenumber
                         set scrolloff=10
                         set shiftwidth=2
                         set showcmd
