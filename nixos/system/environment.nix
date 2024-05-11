@@ -10,5 +10,8 @@
         spotify
         dart-sass
         hugo
+        teams-for-linux
+        go-migrate
+        gnumake #for makefile
     ];
 }
