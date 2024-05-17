@@ -11,7 +11,7 @@
             local all       all     trust
 
             # IPv4 local connections:
-            host    super_spring    eep    ::1/128    trust
+            host    all    eep    ::1/128    trust
 
             #type database DBuser origin-address auth-method
             # ipv4
