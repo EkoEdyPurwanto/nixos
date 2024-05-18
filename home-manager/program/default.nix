@@ -17,5 +17,6 @@
         ./kitty.nix
         ./starship.nix
         ./vsCode.nix
+#        ./fastFetch.nix
     ];
 }
