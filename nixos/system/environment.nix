@@ -10,9 +10,16 @@
         dart-sass
         hugo
         teams-for-linux
-        go-migrate
         gnumake #for makefile
         libreoffice
         tor-browser
+
+        #for go
+        go-migrate
+        go-swagger
+        golangci-lint
+        gosec
+        go-mockery
+        ddosify
     ];
 }
