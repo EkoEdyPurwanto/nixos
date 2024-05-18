@@ -23,20 +23,20 @@ in {
                         "editor.fontFamily" = "Iosevka Nerd Font";
                         "editor.fontSize" = 16;
                     };
-                    extensions = with pkgs; [
-                        vscode-extensions.golang.go
-                        vscode-extensions.bbenoist.nix
-                        vscode-extensions.esbenp.prettier-vscode
-                        vscode-extensions.oderwat.indent-rainbow
-                        vscode-extensions.tamasfe.even-better-toml
-                        vscode-extensions.naumovs.color-highlight
-                        vscode-extensions.vscode-icons-team.vscode-icons
-                        vscode-extensions.ms-azuretools.vscode-docker
-                        vscode-extensions.ms-vscode.makefile-tools
-                        vscode-extensions.humao.rest-client
-                        vscode-extensions.seatonjiang.gitmoji-vscode
-                        vscode-extensions.dotenv.dotenv-vscode
-                        vscode-extensions.bierner.emojisense
+                    extensions = with pkgs.vscode-extensions; [
+                        golang.go
+                        bbenoist.nix
+                        esbenp.prettier-vscode
+                        oderwat.indent-rainbow
+                        tamasfe.even-better-toml
+                        naumovs.color-highlight
+                        vscode-icons-team.vscode-icons
+                        ms-azuretools.vscode-docker
+                        ms-vscode.makefile-tools
+                        humao.rest-client
+                        seatonjiang.gitmoji-vscode
+                        dotenv.dotenv-vscode
+                        bierner.emojisense
                     ];
                 };
             };
