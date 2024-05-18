@@ -16,6 +16,6 @@
         ./go.nix
         ./kitty.nix
         ./starship.nix
-        ./vscode.nix
+        ./vsCode.nix
     ];
 }

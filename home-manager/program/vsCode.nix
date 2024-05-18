@@ -27,8 +27,8 @@ in {
                         vscode-extensions.bbenoist.nix
                         vscode-extensions.esbenp.prettier-vscode
                         vscode-extensions.oderwat.indent-rainbow
-                        vscode-extensions.vscode-icons-team.vscode-icons
                         vscode-extensions.tamasfe.even-better-toml
+                        vscode-extensions.naumovs.color-highlight
                     ];
                 };
             };
