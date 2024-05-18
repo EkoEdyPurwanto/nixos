@@ -16,6 +16,7 @@ in {
                         "workbench.iconTheme" = "vscode-icons";
                         "workbench.colorTheme" = "Default High Contrast";
                         "workbench.productIconTheme" = "emoji-product-icons";
+                        "workbench.tree.expandMode" = "doubleClick";
                         "editor.fontLigatures" = true;
                         "editor.fontVariations" = false;
                         "editor.fontWeight" = 625;
