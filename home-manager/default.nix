@@ -1,8 +1,8 @@
 { ... }:
 
 let
-  name = "eep";
-  ver = "23.11";
+    name = "eep";
+    ver = "23.11";
 in {
     imports = [
         <home-manager/nixos>

@@ -1,7 +1,7 @@
 { ... }:
 
 let
-  name = "eep";
+    name = "eep";
 in {
     home-manager = {
         users.${name} = {

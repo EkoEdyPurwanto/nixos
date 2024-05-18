@@ -69,13 +69,13 @@ in {
                             noise_reduction = 88;
                         };
                         color = {
-                          gradient = 1;
-                          gradient_count = 5;
-                          gradient_color_1 = blue_3;
-                          gradient_color_2 = green_3;
-                          gradient_color_3 = purple_3;
-                          gradient_color_4 = orange_3;
-                          gradient_color_5 = yellow_3;
+                            gradient = 1;
+                            gradient_count = 5;
+                            gradient_color_1 = blue_3;
+                            gradient_color_2 = green_3;
+                            gradient_color_3 = purple_3;
+                            gradient_color_4 = orange_3;
+                            gradient_color_5 = yellow_3;
                         };
                     };
                 };

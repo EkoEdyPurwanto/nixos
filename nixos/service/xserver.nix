@@ -14,7 +14,7 @@
         xkbVariant = "";
     };
 
-     services.xserver.excludePackages = [
+    services.xserver.excludePackages = [
         pkgs.xterm
-      ];
+    ];
 }

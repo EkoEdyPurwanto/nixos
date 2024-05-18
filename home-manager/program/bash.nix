@@ -1,14 +1,14 @@
 { ... }:
 
 let
-  name = "eep";
+    name = "eep";
 in {
     home-manager = {
         users.${name} = {
             programs = {
                 bash = {
                     enable = true;
-  	                enableCompletion = true;
+                    enableCompletion = true;
                     shellAliases = {
                         ### EZA ###
                         #eza = "eza --icons";
@@ -23,8 +23,8 @@ in {
                         tres = "trash-restore";
                         #### BAT ###
                         cat = "bat";
-  	                };
-  	            };
+                    };
+                };
             };
         };
     };

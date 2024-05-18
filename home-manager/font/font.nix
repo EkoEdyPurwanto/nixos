@@ -1,20 +1,20 @@
 { pkgs, ... }:
 
 let
-  name = "eep";
+    name = "eep";
 in {
-  home-manager = {
-    users.${name} = {
-      home = {
-        packages = [
-          (pkgs.nerdfonts.override { fonts = [
-          "FiraCode"
-          "Iosevka"
-          "JetBrainsMono"
-          ];
-          })
-        ];
-      };
+    home-manager = {
+        users.${name} = {
+            home = {
+                packages = [
+                    (pkgs.nerdfonts.override { fonts = [
+                        "FiraCode"
+                        "Iosevka"
+                        "JetBrainsMono"
+                        ];
+                    })
+                ];
+            };
+        };
     };
-  };
 }
