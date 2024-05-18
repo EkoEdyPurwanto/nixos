@@ -30,6 +30,13 @@ in {
                         vscode-extensions.oderwat.indent-rainbow
                         vscode-extensions.tamasfe.even-better-toml
                         vscode-extensions.naumovs.color-highlight
+                        vscode-extensions.vscode-icons-team.vscode-icons
+                        vscode-extensions.ms-azuretools.vscode-docker
+                        vscode-extensions.ms-vscode.makefile-tools
+                        vscode-extensions.humao.rest-client
+                        vscode-extensions.seatonjiang.gitmoji-vscode
+                        vscode-extensions.dotenv.dotenv-vscode
+                        vscode-extensions.bierner.emojisense
                     ];
                 };
             };
