@@ -7,7 +7,7 @@ in {
         users.${name} = {
             programs = {
                 alacritty = {
-                    enable = true;
+                    enable = false;
                 };
             };
         };
