@@ -21,6 +21,7 @@ in {
                 stateVersion = "${ver}";
                 sessionVariables = {
                     # implement here !!!
+                    GTK_THEME = "WhiteSur-Dark";
                 };
                 file = {
                     # implement here !!!
