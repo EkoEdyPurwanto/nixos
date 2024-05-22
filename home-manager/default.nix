@@ -10,6 +10,7 @@ in {
         ./font
         ./package
         ./theme
+        ./dconf
     ];
 
     home-manager = {
