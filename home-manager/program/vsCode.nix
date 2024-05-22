@@ -13,15 +13,37 @@ in {
                     package = pkgs.vscode;
                     userSettings = {
                         "files.autoSave" = "afterDelay";
-                        "workbench.iconTheme" = "vscode-icons";
-                        "workbench.colorTheme" = "Default High Contrast";
-                        "workbench.productIconTheme" = "emoji-product-icons";
-                        "workbench.tree.expandMode" = "doubleClick";
+                        "files.associations" = {
+                            ".env*" = "dotenv";
+                        };
+
+                        "editor.tokenColorCustomizations" = {
+                            "textMateRules" = [
+                                {
+                                    "scope" = "keyword.other.dotenv";
+                                    "settings" = {
+                                        "foreground" = "#FF000000";
+                                    };
+                                }
+                            ];    
+                        };
                         "editor.fontLigatures" = true;
                         "editor.fontVariations" = false;
                         "editor.fontWeight" = 625;
                         "editor.fontFamily" = "Iosevka Nerd Font";
                         "editor.fontSize" = 16;
+
+                        "workbench.iconTheme" = "vscode-icons";
+                        "workbench.colorTheme" = "Brogrammer";
+                        "workbench.productIconTheme" = "emoji-product-icons";
+                        "workbench.tree.expandMode" = "doubleClick";
+                        "workbench.colorCustomizations" = {
+                        "[Brogrammer]" = {
+                            "activityBarBadge.background" = "#ff0000";
+                            "editor.selectionBackground" = "#ffffff60";
+                            "editor.selectionHighlightBackground" = "#ffffff60";
+                            };
+                        };
                     };
                     extensions = with pkgs.vscode-extensions; [
                         golang.go
