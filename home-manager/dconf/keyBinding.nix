@@ -28,7 +28,7 @@ in {
                     "${basePath}/custom1" = customKeybinding "<Super>v" "code" "open-vsCode";
                     "${basePath}/custom2" = customKeybinding "<Super>g" "goland" "open-goland-ide";
                     "${basePath}/custom3" = customKeybinding "<Super>b" "chromium" "open-chromium-browser";
-                    "${basePath}/custom4" = customKeybinding "<Super>5" "switch-to-workspace-5" "move-to-workspace-5";
+                    "${basePath}/custom4" = customKeybinding "<Super>5" "BLABLABLA" "move-to-workspace-5";
                 };
             };
         };
