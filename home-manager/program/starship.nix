@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, lib, ... }:
 
 let
     name = "eep";
@@ -9,6 +9,7 @@ in {
                 starship = {
                     enable = true;
                     enableBashIntegration = true;
+                    package = pkgs.starship;
                 };
             };
         };
