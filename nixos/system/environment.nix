@@ -18,9 +18,10 @@
         gosec
         go-mockery
         ddosify
+        air
     ];
 
-     environment.gnome.excludePackages = with pkgs.gnome; [
+    environment.gnome.excludePackages = with pkgs.gnome; [
         yelp     # help viewer
         epiphany # web browser
         geary  # email client
@@ -36,5 +37,5 @@
         gnome-logs
         pkgs.gnome-console
         pkgs.gnome-text-editor
-     ];
+    ];
 }
