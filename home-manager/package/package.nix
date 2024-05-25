@@ -19,6 +19,7 @@ in {
                     cmatrix
                     cbonsai
                     tty-clock
+                    nodejs_21
                 ];
             };
         };
