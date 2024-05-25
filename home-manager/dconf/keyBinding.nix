@@ -21,12 +21,14 @@ in {
                             "/${basePath}/custom1/"
                             "/${basePath}/custom2/"
                             "/${basePath}/custom3/"
+                            "/${basePath}/custom4/"
                         ];
                     };
                     "${basePath}/custom0" = customKeybinding "<Super>t" "kitty" "open-kitty-terminal";
-                    "${basePath}/custom1" = customKeybinding "<Super>." "code" "open-vsCode";
+                    "${basePath}/custom1" = customKeybinding "<Super>period" "code" "open-vsCode";
                     "${basePath}/custom2" = customKeybinding "<Super>g" "goland" "open-goland-ide";
                     "${basePath}/custom3" = customKeybinding "<Super>b" "chromium" "open-chromium-browser";
+                    "${basePath}/custom4" = customKeybinding "<Super>f" "nautilus" "open-files";
                 };
             };
         };
