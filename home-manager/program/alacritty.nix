@@ -22,8 +22,11 @@ in {
                             decorations_theme_variant = "Dark";
                         };
                         scrolling = {
-                            history = "10000";
-                            multiplier = "3";
+                            history = 10000;
+                            multiplier = 3;
+                        };
+                        mouse = {
+                            hide_when_typing = false;
                         };
                         cursor = {
                             style = "Beam";
