@@ -22,6 +22,7 @@ in {
                             "/${basePath}/custom2/"
                             "/${basePath}/custom3/"
                             "/${basePath}/custom4/"
+                            "/${basePath}/custom5/"
                         ];
                     };
                     "${basePath}/custom0" = customKeybinding "<Super>t" "kitty" "open-kitty-terminal";
@@ -29,6 +30,7 @@ in {
                     "${basePath}/custom2" = customKeybinding "<Super>g" "goland" "open-goland-ide";
                     "${basePath}/custom3" = customKeybinding "<Super>b" "chromium" "open-chromium-browser";
                     "${basePath}/custom4" = customKeybinding "<Super>f" "nautilus" "open-files";
+                    "${basePath}/custom5" = customKeybinding "<Super><Shift>t" "alacritty" "open-allacrity-terminal";
                 };
             };
         };
