@@ -15,7 +15,10 @@ in {
                     nix-search-cli # cli for searching package
                     libreoffice
                     teams-for-linux
-
+                    pipes
+                    cmatrix
+                    cbonsai
+                    tty-clock
                 ];
             };
         };
