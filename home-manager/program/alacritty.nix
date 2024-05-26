@@ -19,7 +19,8 @@ in {
                         window = {
                             opacity = 0.80;
                             title = "󰲋  ";
-                            decorations_theme_variant = "Dark";
+                            decorations = "Full";
+                            decorations_theme_variant = "None";
                         };
                         scrolling = {
                             history = 10000;
