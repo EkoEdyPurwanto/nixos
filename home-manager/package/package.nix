@@ -20,6 +20,7 @@ in {
                     cbonsai
                     tty-clock
                     nodejs_21
+                    typescript
                 ];
             };
         };
