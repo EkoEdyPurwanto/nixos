@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 
 let
     name = "eep";
@@ -11,6 +11,7 @@ in {
                     package = pkgs.awscli2;
                     # settings = {};
                     # credentials = {};
+                };
             };
         };
     };

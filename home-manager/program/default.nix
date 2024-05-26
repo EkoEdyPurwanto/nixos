@@ -18,5 +18,6 @@
         ./starship.nix
         ./vsCode.nix
 #        ./fastFetch.nix
+        ./awsCli.nix
     ];
 }
