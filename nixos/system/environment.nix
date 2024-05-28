@@ -11,6 +11,10 @@
         gnumake #for makefile
         tor-browser
 
+        #for rust
+        rustup
+        gcc
+
         #for go
         go-migrate
         go-swagger
