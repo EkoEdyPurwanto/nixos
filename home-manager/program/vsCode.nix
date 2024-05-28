@@ -46,19 +46,28 @@ in {
                         };
                     };
                     extensions = with pkgs.vscode-extensions; [
-                        golang.go
-                        bbenoist.nix
-                        esbenp.prettier-vscode
-                        oderwat.indent-rainbow
-                        tamasfe.even-better-toml
-                        naumovs.color-highlight
-                        vscode-icons-team.vscode-icons
-                        ms-azuretools.vscode-docker
-                        ms-vscode.makefile-tools
-                        humao.rest-client
-                        seatonjiang.gitmoji-vscode
-                        dotenv.dotenv-vscode
-                        bierner.emojisense
+                        golang.go #go
+                        bbenoist.nix #Nix
+                        esbenp.prettier-vscode # Prettier - Code formatter
+                        oderwat.indent-rainbow # indent-rainbow
+                        tamasfe.even-better-toml # Even Better TOML
+                        naumovs.color-highlight # Color Highlight
+                        vscode-icons-team.vscode-icons # vscode-icons
+                        ms-azuretools.vscode-docker # Docker
+                        ms-vscode.makefile-tools # Makefile Tools
+                        humao.rest-client # REST Client
+                        seatonjiang.gitmoji-vscode # Gitmoji
+                        dotenv.dotenv-vscode # Dotenv Official +Vault
+                        bierner.emojisense # :emojisense:
+                        rust-lang.rust-analyzer # rust-analyzer
+                        jdinhlife.gruvbox # Gruvbox Theme
+
+                        # Thunder Client
+                        # Golang Tools
+                        # Go Nightly
+                        # Brogrammer Theme
+                        # Better Comments
+                        # 👉 Emoji File Icons 👈
                     ];
                 };
             };
