@@ -11,6 +11,7 @@ in {
         ./timeZone.nix
         ./user.nix
         ./environment.nix
+        ./security.nix
     ];
     system = {
         stateVersion = "${ver}";
