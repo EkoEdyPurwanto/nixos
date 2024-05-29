@@ -46,8 +46,8 @@ in {
                         };
                     };
                     extensions = with pkgs.vscode-extensions; [
-                        golang.go #go
-                        bbenoist.nix #Nix
+                        golang.go # Go
+                        bbenoist.nix # Nix
                         esbenp.prettier-vscode # Prettier - Code formatter
                         oderwat.indent-rainbow # indent-rainbow
                         tamasfe.even-better-toml # Even Better TOML
@@ -68,6 +68,7 @@ in {
                         # Brogrammer Theme
                         # Better Comments
                         # 👉 Emoji File Icons 👈
+                        # Vue - Official
                     ];
                 };
             };
