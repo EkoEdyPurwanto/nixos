@@ -46,21 +46,21 @@ in {
                         };
                     };
                     extensions = with pkgs.vscode-extensions; [
-                        golang.go # Go
-                        bbenoist.nix # Nix
-                        esbenp.prettier-vscode # Prettier - Code formatter
-                        oderwat.indent-rainbow # indent-rainbow
-                        tamasfe.even-better-toml # Even Better TOML
-                        naumovs.color-highlight # Color Highlight
-                        vscode-icons-team.vscode-icons # vscode-icons
-                        ms-azuretools.vscode-docker # Docker
-                        ms-vscode.makefile-tools # Makefile Tools
-                        humao.rest-client # REST Client
-                        seatonjiang.gitmoji-vscode # Gitmoji
-                        dotenv.dotenv-vscode # Dotenv Official +Vault
-                        bierner.emojisense # :emojisense:
-                        rust-lang.rust-analyzer # rust-analyzer
-                        jdinhlife.gruvbox # Gruvbox Theme
+                        golang.go                       # Go
+                        bbenoist.nix                    # Nix
+                        esbenp.prettier-vscode          # Prettier - Code formatter
+                        oderwat.indent-rainbow          # indent-rainbow
+                        tamasfe.even-better-toml        # Even Better TOML
+                        naumovs.color-highlight         # Color Highlight
+                        vscode-icons-team.vscode-icons  # vscode-icons
+                        ms-azuretools.vscode-docker     # Docker
+                        ms-vscode.makefile-tools        # Makefile Tools
+                        humao.rest-client               # REST Client
+                        seatonjiang.gitmoji-vscode      # Gitmoji
+                        dotenv.dotenv-vscode            # Dotenv Official +Vault
+                        bierner.emojisense              # :emojisense:
+                        rust-lang.rust-analyzer         # rust-analyzer
+                        jdinhlife.gruvbox               # Gruvbox Theme
 
                         # Thunder Client
                         # Golang Tools

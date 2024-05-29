@@ -8,14 +8,15 @@
         gnome3.gnome-tweaks
         dart-sass
         hugo
-        gnumake #for makefile
+        gnumake # for makefile
         tor-browser
+        doas    # alternative of sudo
 
-        #for rust
+        # for rust
         rustup
         gcc
 
-        #for go
+        # for go
         go-migrate
         go-swagger
         golangci-lint
@@ -26,10 +27,10 @@
     ];
 
     environment.gnome.excludePackages = with pkgs.gnome; [
-        yelp     # help viewer
-        epiphany # web browser
-        geary  # email client
-        seahorse # password manager
+        yelp        # help viewer
+        epiphany    # web browser
+        geary       # email client
+        seahorse    # password manager
         gnome-weather
         gnome-contacts
         gnome-clocks

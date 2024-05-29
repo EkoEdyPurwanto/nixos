@@ -11,8 +11,8 @@ in {
                     trash-cli
                     fastfetch
                     wtf
-                    nix-health # check the health of your nix setup
-                    nix-search-cli # cli for searching package
+                    nix-health      # check the health of your nix setup
+                    nix-search-cli  # cli for searching package
                     libreoffice
                     teams-for-linux
                     pipes
