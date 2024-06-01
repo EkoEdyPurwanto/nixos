@@ -18,9 +18,9 @@ in {
                     pipes
                     cmatrix
                     cbonsai
-                    tty-clock
-                    nodejs_21
-                    typescript
+                    # tty-clock
+                    # nodejs_21
+                    # typescript
                 ];
             };
         };
