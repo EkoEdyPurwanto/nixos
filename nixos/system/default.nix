@@ -1,7 +1,7 @@
 { ... }:
 
 let
-    ver = "24.05";
+    ver = "23.11";
 in {
     imports = [
         ./boot.nix
