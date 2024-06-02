@@ -2,7 +2,7 @@
 
 let
     name = "eep";
-    ver = "24.05";
+    ver = "23.11";
 in {
     imports = [
         <home-manager/nixos>
