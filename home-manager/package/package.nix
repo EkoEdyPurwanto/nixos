@@ -14,13 +14,13 @@ in {
                     nix-health      # check the health of your nix setup
                     nix-search-cli  # cli for searching package
                     libreoffice
-                    teams-for-linux
+                    #teams-for-linux # microsoft teams for linux
                     pipes
                     cmatrix
                     cbonsai
-                    # tty-clock
-                    # nodejs_21
-                    # typescript
+                    tty-clock
+                    nodejs_21
+                    typescript
                 ];
             };
         };
