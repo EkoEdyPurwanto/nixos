@@ -20,9 +20,9 @@
             #host all       all     ::1/128        md5
         '';
         initialScript = pkgs.writeText "backend-initScript" ''
-            CREATE ROLE eep WITH LOGIN PASSWORD '1903' CREATEDB;
-            CREATE DATABASE eep;
-            GRANT ALL PRIVILEGES ON DATABASE mydatabase TO eep;
+            CREATE ROLE eep WITH LOGIN PASSWORD '1903' CREATEDB SUPERUSER REPLICATION BYPASSRLS;
+            CREATE DATABASE eep OWNER eep;
+            GRANT ALL PRIVILEGES ON DATABASE eep TO eep;
         '';
     };
 }

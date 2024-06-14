@@ -4,19 +4,23 @@
     # List packages installed in system profile. To search, run:
     # $ nix search wget
     environment.systemPackages = with pkgs; [
-        jetbrains.goland
-        gnome3.gnome-tweaks
-        dart-sass
-        hugo
-        gnumake # for makefile
-        tor-browser
-        doas    # alternative of sudo
+        #jetbrains.goland
+        gnome3.gnome-tweaks # tweaks
+        dart-sass           # dart sass for hugo
+        hugo                # huo
+        gnumake             # for makefile
+        tor-browser         # tor browser
+        doas                # alternative of sudo
+        pgcli               # Rich command-line interface for PostgreSQL with auto-completion and syntax highlighting
 
         # for rust
         rustup
         gcc
 
         # for go
+        go-tools
+        gopls
+        
         go-migrate
         go-swagger
         golangci-lint
@@ -24,6 +28,16 @@
         go-mockery
         ddosify
         air
+
+        # for gnome extension
+        gnome-extension-manager
+        gnomeExtensions.burn-my-windows
+        gnomeExtensions.blur-my-shell
+        gnomeExtensions.compiz-windows-effect
+        gnomeExtensions.logo-menu
+        gnomeExtensions.space-bar
+        gnomeExtensions.top-bar-organizer
+
     ];
 
     environment.gnome.excludePackages = with pkgs.gnome; [

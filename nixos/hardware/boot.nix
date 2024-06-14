@@ -11,11 +11,12 @@
                 "rtsx_pci_sdmmc"
             ];
             kernelModules = [ ];
-            luks.devices."luks-59e9d0de-e611-4b54-9480-9a2c3e341bda".device = "/dev/disk/by-uuid/59e9d0de-e611-4b54-9480-9a2c3e341bda";
+            luks.devices."luks-8c05a8bd-c9eb-49d9-84f2-d1ce6c722f08".device = "/dev/disk/by-uuid/8c05a8bd-c9eb-49d9-84f2-d1ce6c722f08";
         };
             kernelModules = [
                 "kvm-intel"
             ];
             extraModulePackages = [ ];
+            kernelPackages = pkgs.linuxPackages_latest;
     };
 }
