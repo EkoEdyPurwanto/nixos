@@ -29,6 +29,9 @@
         ddosify
         air
 
+        # for java
+        jdk17
+        
         # for gnome extension
         gnome-extension-manager
         gnomeExtensions.burn-my-windows
