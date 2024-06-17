@@ -1,5 +1,7 @@
 # 🛠️ Installation
 
+___
+
 - #### Make a backup of your current `nixos` configurations:
 ```shell
 doas mv /etc/nixos{,.bak}
@@ -14,3 +16,5 @@ doas rm -rf /etc/nixos/.git
 ```
 ### Note:
 > if you're not using doas, replace with sudo
+
+___
