@@ -18,9 +18,9 @@
         gcc
 
         # for go
-        go-tools
-        gopls
-        
+        #go-tools
+        #gopls
+
         go-migrate
         go-swagger
         golangci-lint
