@@ -14,7 +14,7 @@ doas git clone git@github.com:EkoEdyPurwanto/nixos.git /etc/
 ```shell
 doas rm -rf /etc/nixos/.git
 ```
-### Note:
-> if you're not using `doas`, replace with `sudo`
+> ### Note:
+>> if you're not using `doas`, replace with `sudo`
 
 ___
