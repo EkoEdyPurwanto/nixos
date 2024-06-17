@@ -8,7 +8,7 @@ in {
             programs = {
                 vscode = {
                     enable = true;
-                    enableUpdateCheck = true;
+                    enableUpdateCheck = false;
                     enableExtensionUpdateCheck = true;
                     package = pkgs.vscode;
                     userSettings = {
