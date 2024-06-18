@@ -24,6 +24,7 @@ in {
                         #### BAT ###
                         cat = "bat";
                     };
+                    bashrcExtra = "fastfetch";
                 };
             };
         };
