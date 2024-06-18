@@ -19,5 +19,6 @@
         ./vsCode.nix
 #        ./fastFetch.nix
         ./awsCli.nix
+        ./zoxide.nix
     ];
 }
