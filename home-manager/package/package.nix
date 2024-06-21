@@ -10,7 +10,7 @@ in {
                     gedit
                     trash-cli
                     fastfetch
-                    wtf
+                    wtf             # wtfutil for run
                     nix-health      # check the health of your nix setup
                     nix-search-cli  # cli for searching package
                     libreoffice
