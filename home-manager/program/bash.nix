@@ -24,7 +24,8 @@ in {
                         #### BAT ###
                         cat = "bat";
                     };
-                    bashrcExtra = "fastfetch";
+                    bashrcExtra = "complete -cf doas";
+                    initExtra = "fastfetch";
                 };
             };
         };
