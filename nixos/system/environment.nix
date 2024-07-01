@@ -32,6 +32,11 @@
         # for java
         jdk17
         
+        # JS ecosystem
+        nodejs_21
+        fnm # fast and simple Node.js version manager
+        typescript
+
         # for gnome extension
         gnome-extension-manager
         gnomeExtensions.burn-my-windows
