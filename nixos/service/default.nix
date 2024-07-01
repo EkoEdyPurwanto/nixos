@@ -6,7 +6,8 @@
         ./printing.nix
         ./xserver.nix
         ./pipewire.nix
-        ./rabbitMq.nix
+        ./nginx.nix
+        # ./rabbitMq.nix
         # ./jenkins.nix
         # ./kubernetes.nix
         # ./prometheus.nix
