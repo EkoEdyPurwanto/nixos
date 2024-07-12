@@ -7,7 +7,7 @@
         #jetbrains.goland
         gnome3.gnome-tweaks # tweaks
         dart-sass           # dart sass for hugo
-        hugo                # huo
+        hugo                # hugo
         gnumake             # for makefile
         tor-browser         # tor browser
         doas                # alternative of sudo
