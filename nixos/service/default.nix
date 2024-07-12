@@ -7,6 +7,7 @@
         ./xserver.nix
         ./pipewire.nix
         ./nginx.nix
+        ./mySql.nix
         # ./rabbitMq.nix
         # ./jenkins.nix
         # ./kubernetes.nix
