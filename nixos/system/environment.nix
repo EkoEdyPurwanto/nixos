@@ -12,6 +12,8 @@
         tor-browser         # tor browser
         doas                # alternative of sudo
         pgcli               # Rich command-line interface for PostgreSQL with auto-completion and syntax highlighting
+        curl                # curl
+        wget                # wget
 
         # for rust
         rustup
