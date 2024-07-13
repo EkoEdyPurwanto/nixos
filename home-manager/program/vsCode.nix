@@ -69,6 +69,8 @@ in {
                         # Better Comments
                         # 👉 Emoji File Icons 👈
                         # Vue - Official
+                        # open in browser
+                        # Live Preview
                     ];
                 };
             };
