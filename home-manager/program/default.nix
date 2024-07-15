@@ -8,6 +8,7 @@
         ./eza.nix
         ./bash.nix
         ./git.nix
+        ./gitLfs.nix
         ./fzf.nix
         ./neovim.nix
         ./tmux.nix
