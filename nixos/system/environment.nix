@@ -14,7 +14,8 @@
         pgcli               # Rich command-line interface for PostgreSQL with auto-completion and syntax highlighting
         curl                # curl
         wget                # wget
-
+        pika-backup
+        
         # for rust
         rustup
         gcc
