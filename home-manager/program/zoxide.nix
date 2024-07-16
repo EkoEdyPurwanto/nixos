@@ -11,7 +11,7 @@ in {
                     enableBashIntegration = true;
                     package = pkgs.zoxide;
                     options = [
-                        "--no-aliases"
+                        "--cmd cd" #replace cd with z and zi
                     ];
                 };
             };
