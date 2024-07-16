@@ -14,8 +14,13 @@
         pgcli               # Rich command-line interface for PostgreSQL with auto-completion and syntax highlighting
         curl                # curl
         wget                # wget
-        pika-backup
+        pika-backup         # pika backup for backup data
         
+        # db clients
+        # dbeaver-bin         # multi clients database
+        robo3t              # RoboMongo, mongodb client
+        # redisinsight      # redis insight, redis client
+
         # for rust
         rustup
         gcc
