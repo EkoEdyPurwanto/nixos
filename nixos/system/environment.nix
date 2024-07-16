@@ -41,7 +41,7 @@
         jdk17
         
         # JS ecosystem
-        nodejs_21
+        nodejs_22
         fnm # fast and simple Node.js version manager
         typescript
 
