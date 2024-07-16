@@ -18,7 +18,7 @@
         ./kitty.nix
         ./starship.nix
         ./vsCode.nix
-#        ./fastFetch.nix
+        ./fastFetch.nix
         ./awsCli.nix
         ./zoxide.nix
     ];

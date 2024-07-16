@@ -13,7 +13,6 @@ in {
                     #teams-for-linux # microsoft teams for linux
 
                     trash-cli
-                    fastfetch
                     wtf             # wtfutil for run
                     nix-health      # check the health of your nix setup
                     nix-search-cli  # cli for searching package
