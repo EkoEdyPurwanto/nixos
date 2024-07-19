@@ -44,6 +44,9 @@ in {
                             "editor.selectionHighlightBackground" = "#ffffff60";
                             };
                         };
+                        "go.addTags" = {
+                            "options" = "json=";
+                        };
                     };
                     extensions = with pkgs.vscode-extensions; [
                         golang.go                       # Go
