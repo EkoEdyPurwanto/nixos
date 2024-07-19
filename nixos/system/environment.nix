@@ -15,6 +15,7 @@
         curl                # curl
         wget                # wget
         pika-backup         # pika backup for backup data
+        virtualbox
         
         # db clients
         # dbeaver-bin         # multi clients database
