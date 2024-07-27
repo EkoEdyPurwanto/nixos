@@ -10,7 +10,7 @@ in {
                     enable = true;
                     font = {
                         name = "JetBrainsMono Nerd Font";
-                        size = 14;
+                        size = 12;
                     };
                     settings = {
                         scrollback_lines = 10000;
@@ -23,6 +23,9 @@ in {
                         background = "#000000";
                         placement_strategy = "center";
                         remember_window_size = "yes";
+                        # hide_window_decorations = "no";
+                        # wayland_titlebar_color = "system";
+                        # window_logo_position = "center";
                     };
                     shellIntegration.enableBashIntegration = true;
                 };
