@@ -11,17 +11,16 @@ in {
                     enableCompletion = true;
                     shellAliases = {
                         ### EZA ###
-                        #eza = "eza --icons";
                         ls = "eza";
                         la = "eza -a";
                         ll = "eza -l";
                         lla = "eza -la";
                         lt = "eza --tree";
-                        ### TRASH-CLI ###
-                        rm = "trash-put";
-                        tlis = "trash-list";
-                        tres = "trash-restore";
-                        #### BAT ###
+                        ### TRASHY ###
+                        rm = "trash put";
+                        tlis = "trashy list";
+                        tres = "trashy restore";
+                        ### BAT ###
                         cat = "bat";
                     };
                     bashrcExtra = "complete -cf doas";
