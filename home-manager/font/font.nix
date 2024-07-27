@@ -11,6 +11,8 @@ in {
                         "FiraCode"
                         "Iosevka"
                         "JetBrainsMono"
+                        "IosevkaTerm"
+                        "BigBlueTerminal"
                         ];
                     })
                 ];
