@@ -13,6 +13,10 @@ in {
                         "hnmpcagpplmpfojmgmnngilcnanddlhb" # Windscribe - Free Proxy and Ad Blocker
                         "ohcpnigalekghcmgcdcenkpelffpdolg" # ColorPick Eyedropper
                         "egjidjbpglichdcondbcbdnbeeppgdph" # Trust Wallet
+                        "bnjjngeaknajbdcgpfkgnonkmififhfo" # Fake Filler
+                        "cppjkneekbjaeellbfkmgnhonkkjfpdn" # Clear Cache
+                        "fdpohaocaechififmbbbbbknoalclacl" # GoFullPage - Full Page Screen Capture
+                        "kgkhambjbahgejgoaefmekdchedkihln" # Edit Anything
                     ];
                 };
             };
