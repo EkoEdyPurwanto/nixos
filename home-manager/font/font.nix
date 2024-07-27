@@ -13,6 +13,7 @@ in {
                         "JetBrainsMono"
                         "IosevkaTerm"
                         "BigBlueTerminal"
+                        "NerdFontsSymbolsOnly"
                         ];
                     })
                 ];
