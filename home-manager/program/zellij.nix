@@ -8,7 +8,6 @@ in {
             programs = {
                 zellij = {
                     enable                = true;
-                    enableBashIntegration = true;
                     package               = pkgs.zellij;
                 };
             };
