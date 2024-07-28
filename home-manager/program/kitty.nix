@@ -43,6 +43,7 @@ in {
                         hide_window_decorations = "no";
                         confirm_os_window_close = 1;    # ask for confirmation when closing the terminal
                         placement_strategy      = "center";
+                        enabled_layouts         = "*";
 
                         # TAB BAR
                         # not use
