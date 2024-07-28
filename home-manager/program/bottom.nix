@@ -10,7 +10,7 @@ in {
                     enable = true;
                     settings = {
                         flags = {
-                            avg_cpu = true;
+                            avg_cpu          = true;
                             temperature_type = "c";
                         };
                         colors = {

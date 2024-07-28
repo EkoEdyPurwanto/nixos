@@ -7,9 +7,9 @@ in {
         users.${name} = {
             programs = {
                 go = {
-                    enable = true;
-                    goPath = ".go";
-                    goBin = ".go/bin";
+                    enable  = true;
+                    goPath  = ".go";
+                    goBin   = ".go/bin";
                     package = pkgs.go;
                 };
             };

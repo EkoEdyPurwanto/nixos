@@ -7,7 +7,7 @@ in {
         users.${name} = {
             programs = {
                 fastfetch = {
-                    enable = true;
+                    enable  = true;
                     package = pkgs.fastfetch;
                 };
             };

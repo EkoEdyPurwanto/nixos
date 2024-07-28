@@ -7,9 +7,9 @@ in {
         users.${name} = {
             programs = {
                 starship = {
-                    enable = true;
+                    enable                = true;
                     enableBashIntegration = true;
-                    package = pkgs.starship;
+                    package               = pkgs.starship;
                 };
             };
         };

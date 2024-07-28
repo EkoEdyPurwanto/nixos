@@ -7,10 +7,10 @@ in {
         users.${name} = {
             programs = {
                 eza = {
-                    enable = true;
+                    enable       = true;
                     extraOptions = [ "--group-directories-first"  "--header" ];
-                    git = true;
-                    icons = true;
+                    git          = true;
+                    icons        = true;
                 };
             };
         };

@@ -60,17 +60,17 @@ in {
                     enable = true;
                     settings = {
                         general = {
-                            framerate = 60;
-                            bars = 0;
-                            bar_width = 2;
+                            framerate   = 60;
+                            bars        = 0;
+                            bar_width   = 2;
                             bar_spacing = 1;
                         };
                         smoothing = {
                             noise_reduction = 88;
                         };
                         color = {
-                            gradient = 1;
-                            gradient_count = 5;
+                            gradient         = 1;
+                            gradient_count   = 5;
                             gradient_color_1 = blue_3;
                             gradient_color_2 = green_3;
                             gradient_color_3 = purple_3;

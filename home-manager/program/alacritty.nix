@@ -11,19 +11,19 @@ in {
                     package = pkgs.alacritty;
                     settings = {
                         font = {
-                            size = 12;
+                            size          = 12;
                             normal.family = "JetBrainsMono Nerd Font";
-                            bold.family = "JetBrainsMono Nerd Font";
+                            bold.family   = "JetBrainsMono Nerd Font";
                             italic.family = "JetBrainsMono Nerd Font";
                         };
                         window = {
-                            opacity = 0.80;
-                            title = "󰲋  ";
-                            decorations = "Full";
+                            opacity                   = 0.80;
+                            title                     = "󰲋  ";
+                            decorations               = "Full";
                             decorations_theme_variant = "None";
                         };
                         scrolling = {
-                            history = 10000;
+                            history    = 10000;
                             multiplier = 3;
                         };
                         mouse = {

@@ -7,8 +7,8 @@ in {
         users.${name} = {
             programs = {
                 git = {
-                    enable = true;
-                    userName = "EkoEdyPurwanto";
+                    enable    = true;
+                    userName  = "EkoEdyPurwanto";
                     userEmail = "ekoedypurwantooke@gmail.com";
                 };
             };

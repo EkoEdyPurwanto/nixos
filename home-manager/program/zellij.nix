@@ -7,9 +7,9 @@ in {
         users.${name} = {
             programs = {
                 zellij = {
-                    enable = true;
+                    enable                = true;
                     enableBashIntegration = true;
-                    package = pkgs.zellij;
+                    package               = pkgs.zellij;
                 };
             };
         };

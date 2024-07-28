@@ -7,7 +7,7 @@ in {
         users.${name} = {
             programs = {
                 fzf = {
-                    enable = true;
+                    enable                = true;
                     enableBashIntegration = true;
                 };
             };
