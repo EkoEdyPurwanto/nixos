@@ -21,5 +21,6 @@
         ./fastFetch.nix
         ./awsCli.nix
         ./zoxide.nix
+        ./zellij.nix
     ];
 }

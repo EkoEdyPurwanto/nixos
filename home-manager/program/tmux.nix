@@ -7,7 +7,7 @@ in {
         users.${name} = {
             programs = {
                 tmux = {
-                    enable = true;
+                    enable = false;
                 };
             };
         };
