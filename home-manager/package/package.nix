@@ -11,6 +11,7 @@ in {
                     gedit
                     libreoffice
                     cool-retro-term
+                    telegram-desktop
                     #teams-for-linux # microsoft teams for linux
 
                     trashy          # if you do the command 'rm' or 'rm -rf' in the terminal it is automatically placed in the trash
