@@ -1,8 +1,6 @@
 { pkgs, ... }:
 
 {
-    # List packages installed in system profile. To search, run:
-    # $ nix search wget
     environment.systemPackages = with pkgs; [
         #jetbrains.goland
         gnome3.gnome-tweaks # tweaks
@@ -15,7 +13,7 @@
         curl                # curl
         wget                # wget
         pika-backup         # pika backup for backup data
-        virtualbox
+        # virtualbox          # virtual machine
         
         # db clients
         # dbeaver-bin         # multi clients database
@@ -53,7 +51,7 @@
         gnomeExtensions.compiz-windows-effect
         gnomeExtensions.logo-menu
         gnomeExtensions.space-bar
-        gnomeExtensions.top-bar-organizer
+        # gnomeExtensions.top-bar-organizer     #broken
 
     ];
 
