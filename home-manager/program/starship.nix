@@ -10,6 +10,9 @@ in {
                     enable                = true;
                     enableBashIntegration = true;
                     package               = pkgs.starship;
+                    settings = {
+                        add_newline = false;
+                    };
                 };
             };
         };
