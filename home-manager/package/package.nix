@@ -16,7 +16,8 @@ in {
                     # protonvpn-gui
                     # monero-gui  # An open-source graphical user interface (GUI) wallet developed by the Monero community
                     #teams-for-linux # microsoft teams for linux
-
+                    #anydesk
+                    
                     trashy          # if you do the command 'rm' or 'rm -rf' in the terminal it is automatically placed in the trash
                     wtf             # wtfutil for run
                     nix-health      # check the health of your nix setup
