@@ -14,6 +14,7 @@
         ./tmux.nix
         ./alacritty.nix
         ./chromium.nix
+        ./firefox.nix
         ./go.nix
         ./kitty.nix
         ./starship.nix
