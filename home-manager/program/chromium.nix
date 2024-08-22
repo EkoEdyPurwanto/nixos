@@ -8,8 +8,9 @@ in {
             programs = {
                 chromium = {
                     enable = true;
-                    # extensions = [
-                    #     "bhchdcejhohfmigjafbampogmaanbfkg" # User-Agent Switcher and Manager
+                    extensions = [
+                        "bhchdcejhohfmigjafbampogmaanbfkg" # User-Agent Switcher and Manager
+                        "nkbihfbeogaeaoehlefnkodbefgpgknn" # Metamask
                     #     "hnmpcagpplmpfojmgmnngilcnanddlhb" # Windscribe - Free Proxy and Ad Blocker
                     #     "ohcpnigalekghcmgcdcenkpelffpdolg" # ColorPick Eyedropper
                     #     "egjidjbpglichdcondbcbdnbeeppgdph" # Trust Wallet
@@ -17,7 +18,7 @@ in {
                     #     "cppjkneekbjaeellbfkmgnhonkkjfpdn" # Clear Cache
                     #     "fdpohaocaechififmbbbbbknoalclacl" # GoFullPage - Full Page Screen Capture
                     #     "kgkhambjbahgejgoaefmekdchedkihln" # Edit Anything
-                    # ];
+                    ];
                 };
             };
         };
