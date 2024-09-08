@@ -17,7 +17,7 @@
         
         # db clients
         # dbeaver-bin         # multi clients database
-        robo3t              # RoboMongo, mongodb client
+        # robo3t              # RoboMongo, mongodb client
         # redisinsight      # redis insight, redis client
 
         # for rust
