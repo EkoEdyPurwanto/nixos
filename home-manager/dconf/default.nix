@@ -2,6 +2,6 @@
 
 {
     imports = [
-        ./keyBinding.nix
+        ./gnome.nix
     ];
 }
