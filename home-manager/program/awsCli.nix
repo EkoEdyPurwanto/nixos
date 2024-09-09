@@ -7,7 +7,7 @@ in {
         users.${name} = {
             programs = {
                 awscli = {
-                    enable  = true;
+                    enable  = false;
                     package = pkgs.awscli2;
                     # settings = {};
                     # credentials = {};
