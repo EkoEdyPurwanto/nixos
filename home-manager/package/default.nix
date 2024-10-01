@@ -2,6 +2,8 @@
 
 {
     imports = [
-        ./package.nix
+        ./gui.nix
+        ./programming.nix
+        ./tui.nix
     ];
 }
