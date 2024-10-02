@@ -2,6 +2,7 @@
 
 {
     environment.systemPackages = with pkgs; [
+        dmidecode           # A tool that reads information about your system's hardware from the BIOS according to the SMBIOS/DMI standard
         #jetbrains.goland
         gnome3.gnome-tweaks # tweaks
         dart-sass           # dart sass for hugo
