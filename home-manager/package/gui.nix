@@ -8,6 +8,7 @@ in {
             home = {
                 packages = with pkgs; [
                     ### GUI ###
+                    # github-desktop
                     gedit
                     libreoffice
                     # cool-retro-term

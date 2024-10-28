@@ -13,8 +13,12 @@ in {
         
                     # JS ecosystem
                     nodejs_22
-                    fnm # fast and simple Node.js version manager
+                    #fnm # fast and simple Node.js version manager
                     typescript
+
+                    # for rust
+                    rustup
+                    gcc
                 ];
             };
         };
