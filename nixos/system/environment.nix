@@ -21,10 +21,6 @@
         # robo3t              # RoboMongo, mongodb client
         # redisinsight      # redis insight, redis client
 
-        # for rust
-        rustup
-        gcc
-
         # for go
         #go-tools
         #gopls
