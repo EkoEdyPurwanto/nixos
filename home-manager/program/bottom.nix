@@ -9,6 +9,9 @@ in {
                 bottom = {
                     enable = true;
                     settings = {
+                        styles = {
+                            theme = "gruvbox";
+                        };
                         flags = {
                             avg_cpu          = true;
                             temperature_type = "c";
@@ -22,3 +25,5 @@ in {
         };
     };
 }
+
+# RESOURCE: https://github.com/ClementTsang/bottom

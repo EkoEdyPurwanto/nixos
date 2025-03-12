@@ -14,11 +14,11 @@ in {
                         bold_font               = "auto";
                         italic_font             = "auto";
                         bold_italic_font        = "auto";
-                        font_size               = "12.0";
+                        # font_size               = "12.0";
 
                         # CURSOR
-                        cursor                  = "#30d602";
-                        cursor_text_color       = "#FF0000";  # no effect
+                        cursor                  = "#19cb00";
+                        cursor_text_color       = "#FF0000";    # no effect
                         cursor_shape            = "underline";  # no effect
                         shell_integration       = "no-cursor";  # no effect
 
@@ -49,19 +49,20 @@ in {
                         # not use
 
                         # COLOR SCHEME
-                        background_opacity      = "0.80";
-                        background_blur         = "1";
-                        foreground              = "#807d7d";
-                        background              = "#000000";
+                        # background_opacity      = "0.80";
+                        # background_blur         = "1";
+                        foreground              = "#000000";
+                        background              = "#dedede"; 
 
                         # THE COLOR TABLE
                         # not use
+
 
                         # ADVANCED
                         update_check_interval   = 0;    # to periodically check if updates for “kitty” are available or not, set to zero to disable
 
                         # OS SPECIFIC TWEAKS
-                        wayland_titlebar_color  = "#6B8A7A";
+                        wayland_titlebar_color  = "#dedede";
                         linux_display_server    = "auto";   # Set it to x11 or wayland to force the choice
 
                         # KEYBOARD SHORTCUTS

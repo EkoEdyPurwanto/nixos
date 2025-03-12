@@ -23,11 +23,11 @@ in {
                     settings = {
                         logo = {
                             # uncomment this sh*t bellow if you want to use image
-                            # type = "kitty-direct"; 
-                            # height = 30;
-                            # width = 50;
+                            type = "kitty-direct"; 
+                            height = 20;
+                            width = 40;
 
-                            source = "/etc/nixos/asset/ascii/onepiece/01.txt";
+                            source = "/etc/nixos/asset/logo/random/dogecoin-black-logo.png";
                             padding = {
                                 right = 6; # distance between logo and module
                             };
@@ -41,23 +41,23 @@ in {
                         modules = [
                             {
                                 type = "title";
-                                format = "イープ＠ニクソス";
+                                format = "                    イープ＠ニクソス";
                             }
 
                             {
                                 type = "custom";
-                                format = "╔═════════════════════════════════════════════════╗";
+                                format = "╔ ══════════ ══════════ ══════════ ══════════ ══════════ ╗";
                             }
                             "break"
 
                             {
                                 type = "os";
-                                key = "Distro";
+                                key = "         Distro  ";
                                 keyColor = "yellow";
                                 format = "{2} {12}";
                             }{
                                 type = "os";
-                                key = "╰────────version";
+                                key = "         ╰────────version";
                                 keyColor = "red";
                                 format = "{8} ({10})";
                             }
@@ -65,10 +65,12 @@ in {
 
                             {
                                 type = "kernel";
+                                key = "         Kernel  ";
+                                keyColor = "yellow";
                                 format = "{1}";
                             }{
                                 type = "kernel";
-                                key = "╰────────version";
+                                key = "         ╰────────version";
                                 keyColor = "red";
                                 format = "{2}";
                             }
@@ -76,10 +78,12 @@ in {
 
                             {
                                 type = "shell";
+                                key = "         Shell   ";
+                                keyColor = "yellow";
                                 format = "{6}";
                             }{
                                 type = "shell";
-                                key = "╰────────version";
+                                key = "         ╰────────version";
                                 keyColor = "red";
                                 format = "{4}";
                             }
@@ -87,10 +91,12 @@ in {
 
                             {
                                 type = "de";
+                                key = "         DE      ";
+                                keyColor = "yellow";
                                 format = "{2}";
                             }{
                                 type = "de";
-                                key = "╰────────version";
+                                key = "         ╰────────version";
                                 keyColor = "red";
                                 format = "{3}";
                             }
@@ -98,10 +104,12 @@ in {
 
                             {
                                 type = "wm";
+                                key = "         WM      ";
+                                keyColor = "yellow";
                                 format = "{2}";
                             }{
                                 type = "wm";
-                                key = "╰────────compositor";
+                                key = "         ╰────────compositor";
                                 keyColor = "red";
                                 format = "{3}";
                             }                        
@@ -109,77 +117,81 @@ in {
 
                             {
                                 type = "terminal";
+                                key = "         Terminal";
+                                keyColor = "yellow";
                                 format = "{5}";
                             }{
                                 type = "terminal";
-                                key = "╰────────version";
+                                key = "         ╰────────version";
                                 keyColor = "red";
                                 format = "{6}";
                             }
 
 
-                            {
-                                type = "cpu";
-                                format = "{1}";
-                            }{
-                                type = "cpu";
-                                key = "╰────────max-frequency";
-                                keyColor = "red";
-                                format = "{7} GHz";
-                            }
+                            # {
+                            #     type = "cpu";
+                            #     format = "{1}";
+                            # }{
+                            #     type = "cpu";
+                            #     key = "╰────────max-frequency";
+                            #     keyColor = "red";
+                            #     format = "{7} GHz";
+                            # }
 
 
-                            {
-                                type = "gpu";
-                                format = "{2}";
-                            }{
-                                type = "gpu";
-                                key = "╰────────vendor";
-                                keyColor = "red";
-                                format = "{1}";
-                            }
+                            # {
+                            #     type = "gpu";
+                            #     format = "{2}";
+                            # }{
+                            #     type = "gpu";
+                            #     key = "╰────────vendor";
+                            #     keyColor = "red";
+                            #     format = "{1}";
+                            # }
 
                         
-                            {
-                                type = "memory";
-                                format = "{2}";
-                            }{
-                                type = "memory";
-                                key = "╰────────used";
-                                keyColor = "red";
-                                format = "{1} ({3})";
-                            }
+                            # {
+                            #     type = "memory";
+                            #     format = "{2}";
+                            # }{
+                            #     type = "memory";
+                            #     key = "╰────────used";
+                            #     keyColor = "red";
+                            #     format = "{1} ({3})";
+                            # }
 
 
-                            {
-                                type = "disk";
-                                format = "{2}";
-                            }{
-                                type = "disk";
-                                key = "╰────────used";
-                                keyColor = "red";
-                                format = "{1} ({3})";
-                            }{
-                                type = "disk";
-                                key = "╰────────filesystem";
-                                keyColor = "red";
-                                format = "{9}";
-                            }
+                            # {
+                            #     type = "disk";
+                            #     format = "{2}";
+                            # }{
+                            #     type = "disk";
+                            #     key = "╰────────used";
+                            #     keyColor = "red";
+                            #     format = "{1} ({3})";
+                            # }{
+                            #     type = "disk";
+                            #     key = "╰────────filesystem";
+                            #     keyColor = "red";
+                            #     format = "{9}";
+                            # }
 
                             {
                                 type = "packages";
+                                key = "         Packages";
+                                keyColor = "yellow";
                             }
                         
                             "break"
 
                             {
                                 type = "custom";
-                                format= "╚═════════════════════════════════════════════════╝";
+                                format= "╚ ══════════ ══════════ ══════════ ══════════ ══════════ ╝";
                             }
 
                             {
                                 type = "colors";
-                                paddingLeft = 6;
+                                paddingLeft = 24;
                                 symbol= "circle";
                             }
                         ];
