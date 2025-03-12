@@ -71,11 +71,11 @@ in {
                         color = {
                             gradient         = 1;
                             gradient_count   = 5;
-                            gradient_color_1 = blue_3;
-                            gradient_color_2 = green_3;
-                            gradient_color_3 = purple_3;
-                            gradient_color_4 = orange_3;
-                            gradient_color_5 = yellow_3;
+                            gradient_color_1 = dark_3;
+                            gradient_color_2 = light_5;
+                            gradient_color_3 = brown_3;
+                            gradient_color_4 = red_3;
+                            gradient_color_5 = yellow_5;
                         };
                     };
                 };
