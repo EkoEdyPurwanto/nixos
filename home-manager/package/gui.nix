@@ -15,8 +15,8 @@ in {
                     telegram-desktop
                     # xautoclick
                     # protonvpn-gui
-                    # monero-gui  # An open-source graphical user interface (GUI) wallet developed by the Monero community
-                    #teams-for-linux # microsoft teams for linux
+                    # monero-gui        # An open-source graphical user interface (GUI) wallet developed by the Monero community
+                    # teams-for-linux   # microsoft teams for linux
                     #anydesk
                 ];
             };
