@@ -7,7 +7,7 @@ in {
         users.${name} = {
             programs = {
                 alacritty = {
-                    enable = false;
+                    enable = true;
                     package = pkgs.alacritty;
                     settings = {
                         font = {
