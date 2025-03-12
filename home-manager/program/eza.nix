@@ -16,3 +16,5 @@ in {
         };
     };
 }
+
+# RESOURCE: https://github.com/eza-community/eza
