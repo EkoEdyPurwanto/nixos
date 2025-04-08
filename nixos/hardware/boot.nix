@@ -2,6 +2,18 @@
 
 {
     boot = {
+        
+        plymouth = {
+            enable = true;
+            theme = "optimus";
+            themePackages = with pkgs; [
+                # By default we would install all themes
+                (adi1090x-plymouth-themes.override {
+                    selected_themes = [ "optimus" ];
+                })
+            ];
+        };
+
         initrd = {
             availableKernelModules = [
                 "xhci_pci"
