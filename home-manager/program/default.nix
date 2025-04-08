@@ -23,5 +23,9 @@
         ./awsCli.nix
         ./zoxide.nix
         ./zellij.nix
+        ./waybar.nix
+        ./yazi.nix
+        ./github-cli.nix
+        ./jq.nix
     ];
 }
