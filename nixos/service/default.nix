@@ -4,7 +4,7 @@
     imports = [
         ./postgreSQL.nix
         ./printing.nix
-        ./xserver.nix
+        ./sddm.nix
         ./pipewire.nix
         ./nginx.nix
         ./mySql.nix

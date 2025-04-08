@@ -2,10 +2,13 @@
 
 {
     environment.systemPackages = with pkgs; [
+        swww
+        rofi-wayland
         dmidecode           # A tool that reads information about your system's hardware from the BIOS according to the SMBIOS/DMI standard
         #jetbrains.goland
-        gnome3.gnome-tweaks # tweaks
+        brave
         dart-sass           # dart sass for hugo
+        brightnessctl       # brightness control
         hugo                # hugo
         gnumake             # for makefile
         tor-browser         # tor browser
@@ -32,33 +35,5 @@
         go-mockery
         ddosify
         air
-
-        # for gnome extension
-        gnome-extension-manager
-        gnomeExtensions.burn-my-windows
-        gnomeExtensions.blur-my-shell
-        gnomeExtensions.compiz-windows-effect
-        gnomeExtensions.logo-menu
-        gnomeExtensions.space-bar
-        # gnomeExtensions.top-bar-organizer     #broken
-
-    ];
-
-    environment.gnome.excludePackages = with pkgs.gnome; [
-        yelp        # help viewer
-        epiphany    # web browser
-        geary       # email client
-        seahorse    # password manager
-        gnome-weather
-        gnome-contacts
-        gnome-clocks
-        gnome-calculator
-        gnome-calendar
-        gnome-system-monitor
-        pkgs.gnome-tour
-        gnome-maps
-        gnome-logs
-        pkgs.gnome-console
-        pkgs.gnome-text-editor
     ];
 }
