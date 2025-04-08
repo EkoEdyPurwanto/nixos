@@ -9,8 +9,6 @@ in {
         ./program
         ./font
         ./package
-        ./theme
-        ./dconf
     ];
 
     home-manager = {
@@ -20,13 +18,6 @@ in {
                 username = "${name}";
                 homeDirectory = "/home/${name}";
                 stateVersion = "${ver}";
-                sessionVariables = {
-                    # implement here !!!
-                    GTK_THEME = "WhiteSur-Dark";
-                };
-                file = {
-                    # implement here !!!
-                };
             };
         };
     };
