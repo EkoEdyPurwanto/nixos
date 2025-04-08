@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
     networking.hostName = "nixos";  # Define your hostname.
@@ -10,4 +10,7 @@
 
     # Enable networking
     networking.networkmanager.enable = true;
+    environment.systemPackages = [
+        pkgs.networkmanagerapplet
+    ];
 }
