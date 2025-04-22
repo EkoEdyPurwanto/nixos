@@ -10,7 +10,4 @@
 
     # Enable networking
     networking.networkmanager.enable = true;
-    environment.systemPackages = [
-        pkgs.networkmanagerapplet
-    ];
 }
