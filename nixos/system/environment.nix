@@ -12,9 +12,10 @@
         doas                # alternative of sudo
         pgcli               # Rich command-line interface for PostgreSQL with auto-completion and syntax highlighting
         curl                # curl
+        gcc                 # GNU Compiler Collection
         wget                # wget
         networkmanagerapplet
-        
+
         # for go
         #go-tools
         #gopls
