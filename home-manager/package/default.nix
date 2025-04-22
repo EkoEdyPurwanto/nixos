@@ -2,8 +2,8 @@
 
 {
     imports = [
-        ./gui.nix
-        ./programming.nix
-        ./tui.nix
+        ./gui
+        ./programming
+        ./tui
     ];
 }
