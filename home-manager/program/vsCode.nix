@@ -32,7 +32,9 @@ in {
                         "editor.fontWeight" = 625;
                         "editor.fontFamily" = "Iosevka Nerd Font";
                         "editor.fontSize" = 16;
-
+                        "editor.formatOnSave" = true;
+                        "editor.defaultFormatter" = "esbenp.prettier-vscode";
+                        
                         "workbench.iconTheme" = "vscode-icons";
                         "workbench.colorTheme" = "Brogrammer";
                         "workbench.productIconTheme" = "emoji-product-icons";
