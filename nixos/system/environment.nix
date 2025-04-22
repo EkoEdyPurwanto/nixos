@@ -7,6 +7,7 @@
         dmidecode           # A tool that reads information about your system's hardware from the BIOS according to the SMBIOS/DMI standard
         dart-sass           # dart sass for hugo
         brightnessctl       # brightness control
+        pamixer             # control the volume with the PulseAudio backend
         hugo                # hugo
         gnumake             # for makefile
         doas                # alternative of sudo
