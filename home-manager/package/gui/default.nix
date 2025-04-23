@@ -5,9 +5,9 @@
         ./browser.nix
         ./gedit.nix
         # ./github.nix
-        ./libreoffice.nix
-        # ./protonvpn.nix
+        ./libreOffice.nix
+        # ./protonVpn.nix
         ./telegram.nix
-        # ./virtualbox.nix
+        # ./virtualBox.nix
     ];
 }

@@ -3,7 +3,7 @@
 {
     imports = [
         # ./java.nix
-        ./nodejs.nix
+        ./nodeJs.nix
         ./rust.nix
     ];
 }
