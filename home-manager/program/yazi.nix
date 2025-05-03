@@ -12,7 +12,7 @@ in {
                     enableBashIntegration = true;
                     settings = {
                         manager = {
-                            show_hidden = true;
+                            show_hidden = false;
                         };
                     };
                     theme = {
