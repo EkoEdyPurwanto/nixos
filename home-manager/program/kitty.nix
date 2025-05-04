@@ -49,10 +49,10 @@ in {
                         # not use
 
                         # COLOR SCHEME
-                        # background_opacity      = "0.80";
-                        # background_blur         = "1";
-                        foreground              = "#000000";
-                        background              = "#dedede"; 
+                        background_opacity      = "0.80";
+                        background_blur         = "1";
+                        foreground              = "#19cb00";
+                        # background              = "#dedede";
 
                         # THE COLOR TABLE
                         # not use
