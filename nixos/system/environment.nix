@@ -2,7 +2,8 @@
 
 {
     environment.systemPackages = with pkgs; [
-        swww
+        # swww
+        # waypaper
         rofi-wayland
         dmidecode           # A tool that reads information about your system's hardware from the BIOS according to the SMBIOS/DMI standard
         dart-sass           # dart sass for hugo
@@ -16,6 +17,7 @@
         gcc                 # GNU Compiler Collection
         wget                # wget
         networkmanagerapplet
+        hyprshot
 
         # for go
         #go-tools
