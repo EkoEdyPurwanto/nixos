@@ -24,12 +24,14 @@ in {
                         logo = {
                             # uncomment this sh*t bellow if you want to use image
                             type = "kitty-direct"; 
-                            height = 20;
-                            width = 40;
+                            height = 13;
+                            width = 25;
 
-                            source = "/etc/nixos/asset/logo/random/dogecoin-black-logo.png";
+                            source = "/etc/nixos/asset/logo/random/dogecoin-logo.png";
                             padding = {
                                 right = 6; # distance between logo and module
+                                left = 6;
+                                top = 2;
                             };
                         };
 
