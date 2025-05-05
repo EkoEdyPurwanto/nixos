@@ -1,18 +1,7 @@
 { pkgs, ... }:
 
-# example GET FORMAT
-# fastfetch -h cpu-format
-
 let
     name = "eep";
-    #color
-    # red
-    # green
-    # yellow
-    # blue
-    # magenta
-    # cyan
-    # white
 in {
     home-manager = {
         users.${name} = {
@@ -27,7 +16,7 @@ in {
                             height = 13;
                             width = 25;
 
-                            source = "/etc/nixos/asset/logo/random/dogecoin-logo.png";
+                            source = "/etc/nixos/asset/logo/onepiece/02.png";
                             padding = {
                                 right = 6; # distance between logo and module
                                 left = 6;
@@ -129,55 +118,6 @@ in {
                                 format = "{6}";
                             }
 
-
-                            # {
-                            #     type = "cpu";
-                            #     format = "{1}";
-                            # }{
-                            #     type = "cpu";
-                            #     key = "╰────────max-frequency";
-                            #     keyColor = "red";
-                            #     format = "{7} GHz";
-                            # }
-
-
-                            # {
-                            #     type = "gpu";
-                            #     format = "{2}";
-                            # }{
-                            #     type = "gpu";
-                            #     key = "╰────────vendor";
-                            #     keyColor = "red";
-                            #     format = "{1}";
-                            # }
-
-                        
-                            # {
-                            #     type = "memory";
-                            #     format = "{2}";
-                            # }{
-                            #     type = "memory";
-                            #     key = "╰────────used";
-                            #     keyColor = "red";
-                            #     format = "{1} ({3})";
-                            # }
-
-
-                            # {
-                            #     type = "disk";
-                            #     format = "{2}";
-                            # }{
-                            #     type = "disk";
-                            #     key = "╰────────used";
-                            #     keyColor = "red";
-                            #     format = "{1} ({3})";
-                            # }{
-                            #     type = "disk";
-                            #     key = "╰────────filesystem";
-                            #     keyColor = "red";
-                            #     format = "{9}";
-                            # }
-
                             {
                                 type = "packages";
                                 key = "         Packages";
@@ -203,3 +143,17 @@ in {
         };
     };
 }
+
+# NOTE:
+
+# example GET FORMAT
+# fastfetch -h cpu-format
+
+#color
+# red
+# green
+# yellow
+# blue
+# magenta
+# cyan
+# white
