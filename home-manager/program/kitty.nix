@@ -51,7 +51,7 @@ in {
                         # COLOR SCHEME
                         background_opacity      = "0.80";
                         background_blur         = "1";
-                        foreground              = "#19cb00";
+                        foreground              = "#dedede";
                         # background              = "#dedede";
 
                         # THE COLOR TABLE

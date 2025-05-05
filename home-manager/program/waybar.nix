@@ -9,10 +9,6 @@ in {
                 waybar = {
                     enable = true;
                     package = pkgs.waybar;
-                    systemd = {
-                        enable = false;
-                        target = "graphical-session.target";
-                    };
                     settings = {
                         mainBar = {
                             layer = "top";
@@ -32,6 +28,7 @@ in {
                                 interval = 1;
                                 locale = "id_ID.UTF-8";
                             };
+
                             # center
                             modules-center = [ "hyprland/workspaces" ];
                             "hyprland/workspaces" = {
@@ -114,15 +111,34 @@ in {
 
                         #workspaces {
                             padding: 0px;
+                            margin: 0px;
                             font-family: "JetBrainsMono Nerd Font";
                             font-size: 12pt;
                             font-weight: bold;
                         }
 
+                        #workspaces button {
+                            background: transparent;
+                            color: #dedede;
+                            border: none;
+                            margin: 0 4px;
+                            padding: 4px;
+                            min-width: 10px;
+                            min-height: 10px;
+                            border-radius: 50%;
+                            transition: all 0.2s ease;
+                        }
+
                         #workspaces button.active {
                             background-color: #dedede;
-                            color: #ffffff;
-                            border-radius: 9px;
+                            color: #1e1e2e;
+                            border-radius: 20px; /* aktif jadi lonjong */
+                            padding: 4px 10px;
+                        }
+
+                        #workspaces button:hover {
+                            background-color: rgba(255, 255, 255, 0.2);
+                            border-radius: 50%;
                         }
                     '';
                 };
