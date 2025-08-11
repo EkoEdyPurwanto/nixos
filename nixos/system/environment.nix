@@ -16,8 +16,14 @@
         curl                # curl
         gcc                 # GNU Compiler Collection
         wget                # wget
-        networkmanagerapplet
         hyprshot
+        cmake
+        hwloc
+        zip
+        unzip
+        trashy              # if you do the command 'rm' or 'rm -rf' in the terminal it is automatically placed in the trash
+        nix-health          # check the health of your nix setup
+        nix-search-cli      # cli for searching package
 
         # for go
         #go-tools
