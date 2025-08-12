@@ -50,7 +50,29 @@ in {
                             };
 
                             # right
-                            modules-right = [ "mpd" "pulseaudio" "network" "custom/powermenu" ];
+                            modules-right = [ "custom/crypto" "mpd" "pulseaudio" "network" "custom/powermenu" ];
+                            "custom/crypto" = {
+                                exec = ''
+                                    set -e
+                                    KEYS="CG-JZagcEte8ffDjmbx3nDNNBZU CG-Bv5jtdXouMcPz3DbZ2huPmcJ CG-EdBhbuqmjU9c3WuCYXpsofbr"
+                                    for key in $KEYS; do
+                                        response=$(curl -s -H "x-cg-api-key: $key" "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,tether-gold,monero&vs_currencies=usd")
+                                        if echo "$response" | grep -q '"error"\|"status_code"'; then
+                                            continue
+                                        else
+                                            btc=$(echo "$response" | jq -r '.bitcoin.usd')
+                                            tether_gold=$(echo "$response" | jq -r '.["tether-gold"].usd')
+                                            xmr=$(echo "$response" | jq -r '.monero.usd')
+                                            echo "<span color=\"#FFFF00\">BTC $btc</span>  <span color=\"#dedede\">|</span>  <span color=\"#FFD700\">XAUT $tether_gold</span>  <span color=\"#dedede\">|</span>  <span color=\"#FFA500\">XMR $xmr</span>"
+                                            break
+                                        fi
+                                    done
+                                '';
+                                interval = 15;
+                                format = "{}";
+                                markup = "pango";
+                                tooltip = false;
+                            };
                             "mpd" = {
                                 format = "{artist}: {title}";
                                 on-click = "mpc toggle";
