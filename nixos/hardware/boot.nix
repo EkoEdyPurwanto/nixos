@@ -27,6 +27,7 @@
         };
             kernelModules = [
                 "kvm-intel"
+                "msr"
             ];
             extraModulePackages = [ ];
             kernelPackages = pkgs.linuxPackages_latest;
