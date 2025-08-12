@@ -54,15 +54,16 @@ in {
                             "custom/crypto" = {
                                 exec = ''
                                     set -e
+                                    export LC_NUMERIC=id_ID.UTF-8
                                     KEYS="CG-JZagcEte8ffDjmbx3nDNNBZU CG-Bv5jtdXouMcPz3DbZ2huPmcJ CG-EdBhbuqmjU9c3WuCYXpsofbr"
                                     for key in $KEYS; do
                                         response=$(curl -s -H "x-cg-api-key: $key" "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,tether-gold,monero&vs_currencies=usd")
                                         if echo "$response" | grep -q '"error"\|"status_code"'; then
                                             continue
                                         else
-                                            btc=$(echo "$response" | jq -r '.bitcoin.usd')
-                                            tether_gold=$(echo "$response" | jq -r '.["tether-gold"].usd')
-                                            xmr=$(echo "$response" | jq -r '.monero.usd')
+                                            btc=$(printf "%'d" $(echo "$response" | jq -r '.bitcoin.usd' | cut -d'.' -f1))
+                                            tether_gold=$(printf "%'d" $(echo "$response" | jq -r '.["tether-gold"].usd' | cut -d'.' -f1))
+                                            xmr=$(printf "%'d" $(echo "$response" | jq -r '.monero.usd' | cut -d'.' -f1))
                                             echo "<span color=\"#FFFF00\">BTC $btc</span>  <span color=\"#dedede\">|</span>  <span color=\"#FFD700\">XAUT $tether_gold</span>  <span color=\"#dedede\">|</span>  <span color=\"#FFA500\">XMR $xmr</span>"
                                             break
                                         fi
@@ -119,6 +120,10 @@ in {
                             color: #7ebae4;
                         }
 
+                        #custom-crypto {
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
                         #clock, #mpd, #pulseaudio, #network {
                             padding-left: 10px;
                             padding-right: 10px;
