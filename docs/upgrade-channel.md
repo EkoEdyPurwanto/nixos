@@ -12,9 +12,8 @@ doas nix-channel --list
 ```
 
 Biasanya hasilnya:
-
-    home-manager https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz
-    nixos https://nixos.org/channels/nixos-24.11
+home-manager https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz
+nixos https://nixos.org/channels/nixos-24.11
 
 ------------------------------------------------------------------------
 
@@ -70,7 +69,7 @@ note:
 
 ``` bash
 nixos-version
-home-manager --version tidak perlu di check karna pake module, kalo di check pasti not found
+home-manager --version # tidak perlu di check karna pake module, kalo di check pasti not found
 ```
 
 Pastikan nixos-version sudah di versi **25.05**.
@@ -82,4 +81,3 @@ Pastikan nixos-version sudah di versi **25.05**.
 -   Pindah channel berarti upgrade release. Bisa jadi ada perubahan
     besar (kernel, systemd, dsb). Baca dulu [Release Notes NixOS
     25.05](https://nixos.org/manual/nixos/stable/release-notes).
-
