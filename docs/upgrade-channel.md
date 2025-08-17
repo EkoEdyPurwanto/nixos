@@ -12,6 +12,7 @@ doas nix-channel --list
 ```
 
 Biasanya hasilnya:
+
     home-manager https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz
     nixos https://nixos.org/channels/nixos-24.11
 
