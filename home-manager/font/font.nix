@@ -5,19 +5,15 @@ let
 in {
     home-manager = {
         users.${name} = {
-            home = {
-                packages = [
-                    (pkgs.nerdfonts.override { fonts = [
-                        "FiraCode"
-                        "Iosevka"
-                        "JetBrainsMono"
-                        "IosevkaTerm"
-                        "BigBlueTerminal"
-                        "NerdFontsSymbolsOnly"
-                        ];
-                    })
-                ];
-            };
+            fonts.fontconfig.enable = true;
+            home.packages = with pkgs; [
+                nerd-fonts.fira-code
+                nerd-fonts.jetbrains-mono
+                nerd-fonts.iosevka
+                nerd-fonts.iosevka-term
+                nerd-fonts.bigblue-terminal
+                nerd-fonts.symbols-only
+            ];
         };
     };
 }
