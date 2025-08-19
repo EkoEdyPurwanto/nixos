@@ -27,5 +27,6 @@
         ./yazi.nix
         ./github-cli.nix
         ./jq.nix
+        ./ripgrep.nix
     ];
 }
