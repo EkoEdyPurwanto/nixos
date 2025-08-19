@@ -25,7 +25,7 @@
         ./zellij.nix
         ./waybar.nix
         ./yazi.nix
-        ./github-cli.nix
+        ./githubCli.nix
         ./jq.nix
         ./ripgrep.nix
     ];
