@@ -8,7 +8,7 @@ in {
             home = {
                 packages = with pkgs; [
                     ### TUI ###
-                    wtf             # wtfutil for run
+                    wtfutil         # wtfutil for run
                     pipes           # pipes.sh for run
                     cmatrix         # matrix like hengker pro Tzy
                     cbonsai         # bonsai ASCII art
